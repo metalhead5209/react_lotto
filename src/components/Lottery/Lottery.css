@@ -1,0 +1,16 @@
+.Lottery {
+    border: solid white 3px;
+    margin: auto 5%;
+    margin-top: 5em;
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+    .Lottery .Ball {
+        width: 2.75em;
+        height: 2em;
+        text-align: center;
+    }
+}
