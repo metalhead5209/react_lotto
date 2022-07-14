@@ -1,18 +1,15 @@
 
 import './App.css'
-import Ball from './components/Ball';
+import Ball from './components/Ball/Ball';
+import Lottery from './components/Lottery/Lottery';
 
 function App() {
   
 
   return (
     <div className="App">
-      <Ball num={30}/>
-      <Ball num={8}/>
-      <Ball num={14}/>
-      <Ball num={29}/>
-      <Ball num={12}/>
-      <Ball num={25}/>
+      <Lottery />
+      <Lottery title="Mini Daily" maxNum={10} numBalls={4} />
     </div>
   )
 }
